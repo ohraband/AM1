@@ -1,0 +1,17 @@
+= HW2 - TBD!
+
+Below are screenshots from console with results for the cURL and Telnet tasks.
+
+*cURL*
+
+image::results/Curl_1.png[]
+
+image::results/Curl_2.png[]
+
+*Telnet GET*
+
+image::results/Telnet_GET.png[]
+
+*Telnet POST*
+
+image::results/Telnet_POST.png[]

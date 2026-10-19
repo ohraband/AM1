@@ -1,0 +1,5 @@
+= HW1 - TBD!
+
+Program loads a message in DataFromat1 from the input.txt file and uses pattern matching to select the neccessary information to convert it to DataFormat2. Resulting DataFormat2 is printed in the console as well as saved into output.txt. 
+
+Sample input and output are located int the input.txt and output.txt files.

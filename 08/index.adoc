@@ -1,0 +1,24 @@
+## JMS - Message Forwarding
+
+There are four separate projects, one for each processor agent.
+Logs of each processor agent in action are below:
+
+---
+
+*Order Client* - produces all orders and sends them to the first queue
+
+image::results/images/order_clinet_log.png[order_client_log]
+
+
+*Order processor* - consumes the orders from the first queue and forwards it either to a booking queue or a new trips queue
+
+image::results/images/order_consumer_log.png[order_consumer_log]
+
+*Bookings processor* - consumes the messages from the bookings queue
+
+image::results/images/bookings_log.png[bookings_log]
+
+*New trips processor* - consumes the messages from the new trips queue
+
+
+image::results/images/newtrips_log.png[newtrips_log]
